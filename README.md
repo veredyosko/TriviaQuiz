@@ -1,7 +1,7 @@
 # TriviaQuiz
 
-Hi, welcome to my Trivia Quis, hope you'll enjoy it. 
+Hi, welcome to my Trivia Quiz, hope you'll enjoy it. 
 
-A disclaimer: this is my first experience in web app development, hope it will be taked into account.
+A disclaimer: this is my first experience in web app development.
 
-Thanks for this interesting experience :-)
+Enjoy!
