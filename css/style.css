@@ -110,6 +110,9 @@ issMap {
   cursor: pointer;
   float: center;
 }
+.btn-group-wrapper {
+    text-align: center;
+}
 
 /* .btn-group .button:not(:last-child) {
   border-right: none; Prevent double borders
@@ -117,4 +120,23 @@ issMap {
 
 .btn-group .button:hover {
   background-color: #3e8e41;
+}
+
+
+.column {
+  float: left;
+  width: 40%%;
+  padding: 20px;
+  display:inline-block;
+}
+
+.row {
+  text-align: center;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
