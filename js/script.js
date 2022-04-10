@@ -258,7 +258,7 @@ document.getElementById("ans1").style.display = "none";
 document.getElementById("ans2").style.display = "none";
 document.getElementById("ans3").style.display = "none";
 document.getElementById("ans4").style.display = "none";
-document.getElementById("reply").innerHTML = "End Game!!!"
+document.getElementById("reply").innerHTML = "<strong>End Game!!!</strong>"
 flagStart=0;
 setInterval(function() {
   document.getElementById("reply").style.visibility  = (document.getElementById("reply").style.visibility  == 'hidden' ? '' : 'hidden');
@@ -271,8 +271,10 @@ if (levelChosen=='hard') {
 text=text+ (". You recieved 5 points bonus for your braveness!")
 }
 document.getElementById("score").innerHTML = text.bold();
-document.getElementById("score").fontSize = "40px"
+document.getElementById("score").fontSize = "60px"
 document.getElementById("score").style.color = "magenta";
+document.getElementById("reply").fontSize = "60px";
+
 document.getElementById("correctAnswersCounter").style.display = "block";
 document.getElementById("correctAnswersCounter").innerHTML="You answered "+correctAnswersCounter+" out of "+numOfQuestions+" questions correctly."
 //document.getElementById("startAgain").style.display = "block";
