@@ -127,7 +127,6 @@ issMap {
   float: left;
   width: 40%%;
   padding: 20px;
-  display:inline-block;
 }
 
 .row {
@@ -139,4 +138,11 @@ issMap {
   content: "";
   clear: both;
   display: table;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
